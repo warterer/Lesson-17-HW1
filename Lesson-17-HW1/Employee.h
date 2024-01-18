@@ -60,6 +60,7 @@ public:
 		std::cout << "Position: " << position << std::endl;
 		std::cout << "Salary: " << salary << std::endl;
 		std::cout << "Education: " << education << std::endl;
+		std::cout << std::endl;
 	}
 };
 
