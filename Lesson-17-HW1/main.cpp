@@ -13,6 +13,9 @@ int main()
 		{"Jablonowski", 1959, "Lawyer", 4200, "Bachelor"} };
 	for (int i = 0; i < 5; i++)
 	{
-		arr[i].show();
+		if (2023 - arr[i].getBirthYear() >= 60)
+		{
+			arr[i].show();
+		}
 	}
 }
